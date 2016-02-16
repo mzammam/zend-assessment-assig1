@@ -1,0 +1,23 @@
+
+<?php 
+//var_dump($this->formData);
+?>
+<h2>Post uploaded image to twitter</h2>
+
+<div id="msg">
+
+</div>
+<div>
+<b>
+<?php 
+echo $this->formData["text"];
+?></b>
+</div>
+<img width="250px" height="250px" src='<?php echo $this->baseUrl.'/public/uploads/'.$this->formData["file"]["name"];?>'>
+  
+  <div class="control-group" style="margin-top: 5px">
+        <div class="controls">
+        <?php $image = $this->baseUrl.'/file-upload-examples/postimage/'.$this->formData["file"]["name"].'/'.$this->formData["text"];?>
+            <button class="btn btn-primary post-btn" onclick="postImage('<?php echo $image;?>')">Post to Twitter</button>
+        </div>
+    </div>

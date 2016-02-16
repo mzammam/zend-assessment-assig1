@@ -1,0 +1,18 @@
+
+
+<?php 
+/*echo $this->url(array('module' => 'Application',
+    'controller' => 'Index',
+    'action' => 'index'));*/
+
+if($this->notauthenticated)
+{
+
+}
+
+
+?>
+	
+You can't upload images to Twitter if you are not loggedin, please <a href="<?php echo $this->url('scn-social-auth-user/login'); ?>">login</a> first
+
+

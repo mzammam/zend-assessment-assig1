@@ -1,0 +1,25 @@
+{
+  "name" : "zendframework/skeleton-application",
+  "description" : "Skeleton Application for ZF2",
+  "require" : {
+    "php" : ">=5.5.22",
+    "zendframework/zend-cache" : "2.*",
+    "zendframework/zend-config" : "2.*",
+    "zendframework/zend-db" : "2.*",
+    "zendframework/zend-json" : "2.*",
+    "zendframework/zend-loader" : "2.*",
+    "zendframework/zend-log" : "2.*",
+    "zendframework/zend-mvc" : "2.*",
+    "zendframework/zend-navigation" : "2.*",
+    "zendframework/zend-servicemanager" : "2.*",
+    "zendframework/zend-session" : "2.*",
+    "zendframework/zend-version" : "2.*",
+    "zendframework/zend-view" : "2.*",
+    "socalnick/scn-social-auth" : "~1.18.0",
+    "cgm/zf2-file-upload-examples" : ">=1.0.0",
+    "malsup/form" : "3.51"
+  },
+  "license" : "BSD-3-Clause",
+  "keywords" : [ "framework", "zf2" ],
+  "homepage" : "http://framework.zend.com/"
+}
